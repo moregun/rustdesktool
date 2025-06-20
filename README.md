@@ -3,7 +3,7 @@
 ## 示例
 ```sh
 # RustDesk-Server 安装脚本
-# Github <https://github.com/sshpc/rustdesktool>
+# Github <https://github.com/moregun/rustdesktool>
 # You Server:ubuntu
 
 >~~~~~~~~~~~~~~  rustdesk-server tool ~~~~~~~~~~~~<  v: 1.0
@@ -30,7 +30,7 @@ q: 退出
 > 推荐 root 用户
 
 ```sh
-wget -N  http://raw.githubusercontent.com/sshpc/rustdesktool/main/rustdesktool.sh && chmod +x ./rustdesktool.sh && ./rustdesktool.sh
+wget -N  http://raw.githubusercontent.com/moregun/rustdesktool/main/rustdesktool.sh && chmod +x ./rustdesktool.sh && ./rustdesktool.sh
 ```
 
 > 再次执行
