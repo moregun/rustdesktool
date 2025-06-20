@@ -139,7 +139,7 @@ checkSystem() {
 updateself() {
 
     _blue '下载github最新版'
-    wget -N http://raw.githubusercontent.com/sshpc/rustdesktool/main/rustdesktool.sh
+    wget -N http://raw.githubusercontent.com/moregun/rustdesktool/main/rustdesktool.sh
     # 检查上一条命令的退出状态码
     if [ $? -eq 0 ]; then
         chmod +x ./rustdesktool.sh && ./rustdesktool.sh
@@ -221,8 +221,6 @@ install() {
 
     # 下载链接列表#兼容国内环境
     links=(
-        "https://gh.ddlc.top/https://github.com/rustdesk/rustdesk-server/releases/download/$rustdeskserverversion/rustdesk-server-linux-amd64.zip"
-        "https://git.886.be/https://github.com/rustdesk/rustdesk-server/releases/download/$rustdeskserverversion/rustdesk-server-linux-amd64.zip"
         "https://github.com/rustdesk/rustdesk-server/releases/download/$rustdeskserverversion/rustdesk-server-linux-amd64.zip"
     )
 
